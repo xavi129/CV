@@ -1,12 +1,11 @@
 {
   "basics": {
     "name": "Javier Hernandez Mancilla",
-    "label": "Analista de datos y programador Full-stack JR",
+    "label": "Estudiante de Economia y analista de datos",
     "image": "/CV/me.webp",
     "email": "xavi33541@gmail.com",
     "url": "https://xavi129.github.io/CV",
-    "summary": "Fundador de SQ Entregas y desarrollador FullStack jr. Me encanta aprender. Desde niño me emociona la programación y las posibilidades infinitas que puedes realizar con ella. Tengo experiencia en el desarrollo de aplicaciones web y móviles, con conocimientos en PHP, Laravel, JavaScript, Node.js, SQL, Excel, Tableau y Git. También tengo experiencia en Flutter.",
-    "location": {
+    "summary": "Apasionado por el aprendizaje continuo, desde niño me ha fascinado la ciencia de datos y las infinitas posibilidades de interpretación que ofrece. Tengo experiencia en el desarrollo de aplicaciones web y mapas de calor, así como en el procesamiento de grandes volúmenes de datos, con conocimientos en PHP, Laravel, JavaScript, Node.js, SQL, Excel, Tableau y Git. Además, cuento con experiencia en Flutter.",    "location": {
       "address": "",
       "postalCode": "08820",
       "city": "Tijuana",
@@ -32,11 +31,11 @@
       "position": "Chief technology officer",
       "startDate": "2021-03-01",
       "endDate": "2024-05-01",
-      "summary": "Desarrollé una plataforma de Entregas de última milla para negocios locales. La plataforma permitía a los negocios locales ofrecer entregas a domicilio a sus clientes contando con Geolocalización en tiempo real multiplataforma (iOS, Android, Web) con sistema de escalado automático en servicios de AWS y Digital Ocean con conexión a APIs de Google Maps.",
+      "summary": " La plataforma permitía a los negocios locales ofrecer entregas a domicilio a sus clientes contando con Geolocalización en tiempo real multiplataforma (iOS, Android, Web) con sistema de escalado automático en servicios de AWS y Digital Ocean con conexión a APIs de Google Maps.",
       "highlights": [
         "Started the company"
       ],
-      "url": "https://www.google.com/search?q=sq+entrgas"
+      "url": "https://www.google.com/search?q=sq+entregas"
     }
   ],
   "volunteer": [{
@@ -55,7 +54,7 @@
     "url": "https://www.uoc.edu/portal/es/index.html",
     "area": "Licenciatura en Economía",
     "studyType": "Bachelor",
-    "startDate": "2020-01-01",
+    "startDate": "2022-01-01",
     "endDate": null,
     "score": "4.0",
     "courses": [

@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Javier Hernandez Mancilla",
-    "label": "Analista de datos y programador Full-stack JR",
+    "label": "Data Scientist | Open Source Enthusiast",
     "image": "/CV/me.webp",
     "email": "xavi33541@gmail.com",
     "url": "https://xavi129.github.io/CV",
-    "summary": "Fundador de SQ Entregas y desarrollador FullStack jr. Me encanta aprender. Desde niño me emociona la programación y las posibilidades infinitas que puedes realizar con ella. Tengo experiencia en el desarrollo de aplicaciones web y móviles, con conocimientos en PHP, Laravel, JavaScript, Node.js, SQL, Excel, Tableau y Git. También tengo experiencia en Flutter.",
+    "summary": "Transformo datos complejos en información práctica y creo soluciones inteligentes que marcan la diferencia. Con experiencia en aprendizaje automático, análisis estadístico y visualización de datos, ayudo a las organizaciones a tomar decisiones basadas en datos.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -16,7 +16,7 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "midudev",
+        "username": "JavierHZM",
         "url": "https://www.linkedin.com/in/JavierHZM"
       },
       {
@@ -55,8 +55,8 @@
     "url": "https://www.uoc.edu/portal/es/index.html",
     "area": "Licenciatura en Economía",
     "studyType": "Bachelor",
-    "startDate": "2020-01-01",
-    "endDate": null,
+    "startDate": "2022-01-01",
+    "endDate": "2026-01-01",
     "score": "4.0",
     "courses": [
       "DB1101 - Basic SQL"
@@ -86,13 +86,19 @@
     "date": "2024-03-07",
     "issuer": "Tecnologico de Monterrey",
     "url": "https://coursera.org/share/6cb69e1218a1a7ad6a405efbfece9605"
+  },
+  {
+    "name": "GitHub Foundations",
+    "date": "2024-03-07",
+    "issuer": "Microsoft",
+    "url": "https://www.credly.com/badges/ce8566ee-891c-477e-a44e-dbae7393ea21"
   }
 ],
   "publications": [{
     "name": "Publication",
     "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
+    "releaseDate": "2025-10-01",
+    "url": "https://medium.com/@xavi33541/aumento-automatizado-de-datos-abf1fd545a8a",
     "summary": "Description…"
   }],
   "skills": [

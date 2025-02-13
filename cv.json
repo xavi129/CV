@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Javier Hernandez Mancilla",
-    "label": "Data Scientist | Open Source Enthusiast",
+    "label": "AI Engineer | Data Scientists | Open Source Enthusiast",
     "image": "/CV/me.webp",
     "email": "xavi33541@gmail.com",
     "url": "https://xavi129.github.io/CV",
-    "summary": "Transformo datos complejos en información práctica y creo soluciones inteligentes que marcan la diferencia. Con experiencia en aprendizaje automático, análisis estadístico y visualización de datos, ayudo a las organizaciones a tomar decisiones basadas en datos.",
+    "summary": "Desde niño, mi fascinación por los números y la tecnología me llevó por el camino de Datos - IA - Nube - Matemáticas | Formar y liderar con pasión | Ayudar a las empresas a resolver problemas complejos con soluciones escalables e innovadoras | Ofrecer tecnología fiable, transparente y accesible.",
     "location": {
       "address": "",
       "postalCode": "08820",
@@ -69,6 +69,14 @@
     "summary": "There is no spoon."
   }],
   "certificates": [
+    {
+    "name": "AI Engineer for Data Scientists Associate certificate",
+    "date": "2024-03-07",
+    "issuer": "DataCamp",
+    "url": "https://www.datacamp.com/certificate/AEDS0018819397976"
+      
+    },
+  
     {
     "name": "Programa especializado: Análisis de Datos de Google",
     "date": "2024-03-07",
@@ -150,6 +158,26 @@
       "keywords": [
         "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
       ]
+    },
+    
+    {
+    "name": "Python",
+    "level": "Avanzado",
+    "keywords": ["Backend", "Desarrollo Web", "Lenguaje de Programación"]
+    },
+    {
+       "name": "R",
+        "level": "Avanzado",
+        "keywords": [
+          "Análisis de Datos", "Estadística", "Visualización de Datos"
+        ]
+      },
+      {
+        "name": "Power BI",
+        "level": "Avanzado",
+        "keywords": [
+          "Visualización de Datos", "BI", "Análisis de Datos"
+        ]    
     },
     {
       "name": "Git",

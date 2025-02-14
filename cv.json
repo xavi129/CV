@@ -274,6 +274,20 @@
         "Tableu"
       ],
       "url": "https://astrorifas.vercel.app"
+    },
+    {
+      "name": "Financial Dashboard",
+      "isActive": true,
+      "github": "https://v0-financial-dashboard-uspsaf.vercel.app/dashboard",
+      "description": "Dashboard financiero para la visualización y análisis de datos financieros en tiempo real.",
+      "highlights": [
+        "React",
+        "Next.js",
+        "Node.js",
+        "D3.js",
+        "SQL"
+      ],
+      "url": "https://v0-financial-dashboard-uspsaf.vercel.app/dashboard"
     }
   ]
 }

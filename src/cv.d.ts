@@ -94,8 +94,8 @@ interface Education {
   url: string
   area: string
   studyType: string
-  startDate: DateStr
-  endDate: DateStr
+  // startDate: DateStr
+  // endDate: DateStr
   score: string
   courses: Array<string>
 }

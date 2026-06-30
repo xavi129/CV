@@ -307,7 +307,7 @@
       "name": "SMIG - Agente Conversacional de Voz",
       "isActive": true,
       "github": null,
-      "image": "/CV/projects/smig-agent.png",
+      "image": "/CV/projects/smig-agent-interface.svg",
       "impact": "Memoria documental conectada desde 1996",
       "description": "Agente conversacional de voz para el Sistema de Información Geográfica de Tijuana, con memoria documental desde 1996 hasta la fecha y conexiones entre documentos, contexto histórico y respuestas.",
       "highlights": [

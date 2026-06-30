@@ -82,6 +82,12 @@
   }],
   "certificates": [
     {
+    "name": "Machine Learning with Python: from Linear Models to Deep Learning",
+    "date": "2025-03-01",
+    "issuer": "Massachusetts Institute of Technology",
+    "url": "https://xavi129.github.io/CV/certificate"
+    },
+    {
     "name": "AI Engineer for Data Scientists Associate certificate",
     "date": "2025-03-07",
     "issuer": "DataCamp",

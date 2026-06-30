@@ -292,6 +292,8 @@
       "name": "GeoInsight AI",
       "isActive": true,
       "github": null,
+      "image": "/CV/projects/geoinsight-ai.png",
+      "impact": "3,046 terrenos analizados y capas 3D por zona",
       "description": "Plataforma de inteligencia geoespacial para la zona metropolitana de Tijuana, con visualización 3D, análisis de terrenos, precios por zona y modelos predictivos.",
       "highlights": [
         "deck.gl",
@@ -305,6 +307,8 @@
       "name": "SMIG - Agente Conversacional de Voz",
       "isActive": true,
       "github": null,
+      "image": "/CV/projects/smig-agent.png",
+      "impact": "Memoria documental conectada desde 1996",
       "description": "Agente conversacional de voz para el Sistema de Información Geográfica de Tijuana, con memoria documental desde 1996 hasta la fecha y conexiones entre documentos, contexto histórico y respuestas.",
       "highlights": [
         "Voz",
@@ -318,6 +322,7 @@
       "name": "SQ Entregas",
       "isActive": true,
       "github":null,
+      "impact": "Plataforma iOS, Android y Web para última milla",
       "description": "Sistema de análisis predictivo para optimización de rutas de entrega mediante algoritmos de ML y visualización de datos geoespaciales",
       "highlights": [
         "Flutter",
@@ -329,7 +334,9 @@
     { 
       "name": "Astro Rifas",
       "isActive": true,
-      "github":"https://astrorifas.vercel.app/",
+      "github": null,
+      "image": "/CV/projects/astro-rifas.png",
+      "impact": "Gestión completa de sorteos digitales",
       "description": "Sistema de análisis predictivo para optimización de ventas y comportamiento de usuarios mediante técnicas de Machine Learning y visualización de datos",
       "highlights": [
         "React",
@@ -345,6 +352,8 @@
       "name": "EscribeTuCancion.com",
       "isActive": true,
       "github": null,
+      "image": "/CV/projects/escribetucancion.png",
+      "impact": "Canciones personalizadas con IA generativa",
       "description": "Plataforma web con Inteligencia Artificial generativa para ayudar a usuarios a componer letras y canciones personalizadas.",
       "highlights": [
         "IA Generativa",
@@ -356,7 +365,9 @@
     {
       "name": "Financial Dashboard",
       "isActive": true,
-      "github": "https://v0-financial-dashboard-uspsaf.vercel.app/dashboard",
+      "github": null,
+      "image": "/CV/projects/financial-dashboard.png",
+      "impact": "Dashboard financiero con métricas en tiempo real",
       "description": "Dashboard financiero para la visualización y análisis de datos financieros en tiempo real.",
       "highlights": [
         "React",

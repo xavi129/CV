@@ -9,10 +9,15 @@ import { projects } from "@cv"
   <ul>
     {
       projects.map(
-        ({ url, description, highlights, name, isActive, github }) => {
+        ({ url, description, highlights, name, isActive, github, image, impact }) => {
           return (
             <li>
               <article>
+                {image && (
+                  <a href={url} target="_blank" class="project-image-link" title={`Ver el proyecto ${name}`}>
+                    <img src={image} alt={`Captura de ${name}`} loading="lazy" />
+                  </a>
+                )}
                 <header>
                   <h3>
                     <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
@@ -30,6 +35,7 @@ import { projects } from "@cv"
                       </a>
                     )}
                   </h3>
+                  {impact && <strong>{impact}</strong>}
                   <p>{description}</p>
                 </header>
                 <footer>
@@ -64,12 +70,42 @@ import { projects } from "@cv"
     height: 100%;
   }
 
+  .project-image-link {
+    display: block;
+    overflow: hidden;
+    border-radius: 6px;
+    border: 1px solid #eee;
+    aspect-ratio: 16 / 9;
+    background: #f6f6f6;
+  }
+
+  .project-image-link img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    transition: transform 0.2s ease;
+  }
+
+  article:hover .project-image-link img {
+    transform: scale(1.02);
+  }
+
   article header {
     flex: 1;
   }
 
   article h3 {
     margin-bottom: 4px;
+  }
+
+  article strong {
+    display: block;
+    margin-bottom: 6px;
+    color: #111;
+    font-size: 0.72rem;
+    line-height: 1.1rem;
   }
 
   article a {
@@ -135,6 +171,10 @@ import { projects } from "@cv"
       border: none;
       box-shadow: 0 1px 1px #f2f2f2;
       padding: 0 0 16px 0;
+    }
+
+    .project-image-link {
+      border-radius: 6px;
     }
   }
 

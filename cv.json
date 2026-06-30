@@ -302,6 +302,19 @@
       "url": "https://implantest.vercel.app/"
     },
     {
+      "name": "SMIG - Agente Conversacional de Voz",
+      "isActive": true,
+      "github": null,
+      "description": "Agente conversacional de voz para el Sistema de Información Geográfica de Tijuana, con memoria documental desde 1996 hasta la fecha y conexiones entre documentos, contexto histórico y respuestas.",
+      "highlights": [
+        "Voz",
+        "RAG",
+        "Memoria",
+        "Documentos"
+      ],
+      "url": "https://smig.implantijuana.gob.mx/"
+    },
+    {
       "name": "SQ Entregas",
       "isActive": true,
       "github":null,

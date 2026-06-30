@@ -9,7 +9,7 @@ import GitHub from "@/icons/GitHub.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
 
-const { name, label, image, location, profiles, email } = basics
+const { name, label, image, location, profiles, email, phone } = basics
 const { city, region } = location
 
 const SOCIAL_ICONS: SocialIcon = {
@@ -21,7 +21,7 @@ const SOCIAL_ICONS: SocialIcon = {
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
 
-const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
+const printInfo = [phone, email, linkedUrl].filter(Boolean).join(" • ")
 ---
 
 <Section>
@@ -38,6 +38,18 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
       </footer>
       <footer class="no-print">
         {
+          phone && (
+            <a
+              href={`tel:${phone.replaceAll(" ", "")}`}
+              title={`Llamar a ${name} al teléfono ${phone}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Phone />
+            </a>
+          )
+        }
+        {
           email && (
             <a
               href={`mailto:${email}`}
@@ -50,7 +62,7 @@ const printInfo = [email, linkedUrl].filter(Boolean).join(" • ")
           )
         }
         {
-          profiles.map(({ network, url, username }) => {
+          profiles.map(({ network, url }) => {
             const Icon = SOCIAL_ICONS[network]
 
             return (

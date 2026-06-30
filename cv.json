@@ -1,17 +1,18 @@
 {
   "basics": {
     "name": "Javier Hernandez Mancilla",
-    "label": "AI Engineer | Data Scientists | Open Source Enthusiast",
+    "label": "Inteligencia Artificial y Machine Learning",
     "image": "/CV/me.webp",
     "email": "xavi33541@gmail.com",
+    "phone": "+52 661-266-3471",
     "url": "https://xavi129.github.io/CV",
-    "summary": "Desde niño, mi fascinación por los números y la tecnología me llevó por el camino de Datos - IA - Nube - Matemáticas | Formar y liderar con pasión | Ayudar a las empresas a resolver problemas complejos con soluciones escalables e innovadoras | Ofrecer tecnología fiable, transparente y accesible.",
+    "summary": "Especialista en el desarrollo e implementación de modelos de IA y Machine Learning con impacto directo en resultados comerciales y optimización de procesos internos. Experiencia construyendo, entrenando y ajustando modelos predictivos para propensión de compra, morosidad, churn y otros casos de negocio, con fuerte enfoque en análisis, preparación de datos y conexión de hallazgos técnicos con estrategias de negocio.",
     "location": {
       "address": "",
       "postalCode": "08820",
       "city": "Tijuana",
-      "countryCode": "ES",
-      "region": "Mexico"
+      "countryCode": "MX",
+      "region": "Baja California"
     },
     "profiles": [
       {
@@ -28,27 +29,34 @@
   },
   "work": [
     {
-      "name": "SQ Entregas",
-      "position": "Chief technology officer",
-      "startDate": "2021-03-01",
-      "endDate": "2023-05-01",
-      "summary": "Desarrollé una plataforma de Entregas de última milla para negocios locales. La plataforma permitía a los negocios locales ofrecer entregas a domicilio a sus clientes contando con Geolocalización en tiempo real multiplataforma (iOS, Android, Web) con sistema de escalado automático en servicios de AWS y Digital Ocean con conexión a APIs de Google Maps.",
-      "highlights": [
-        "Started the company"
-      ],
-      "url": "https://www.google.com/search?q=sq+entrgas"
-    },
-   
-    {
-      "name": "IMPLAN | Instituto Metropolitano de Planeación - Tijuana",
+      "name": "IMPLAN | Instituto Metropolitano de Planeación Tijuana",
       "position": "Data Scientist",
-      "startDate": "2024-01-01",
-      "endDate": "2025-12-01",
-      "summary": "Desarrollé un sistema de análisis de datos para la toma de decisiones en el sector público. El sistema permitía a los tomadores de decisiones visualizar y analizar datos mediante mapas espaciales con múltiples capas de segmentación y visión delimitada por zonas. Esto facilitaba un análisis detallado por sectores y una toma de decisiones más precisa basada en datos geoespaciales.",
+      "startDate": "2025-08-01",
+      "endDate": null,
+      "summary": "Desarrollo soluciones de IA, visión computacional, LLMs y análisis geoespacial para apoyar la planeación metropolitana y la toma de decisiones públicas basada en datos.",
       "highlights": [
-        "Started the company"
+        "Desarrollé modelos de Computer Vision para detectar deterioro en techos con imágenes satelitales.",
+        "Creé un sistema de generación de modelos 3D a partir de imágenes para reconstrucción de terrenos y estructuras.",
+        "Desplegué LLMs como Gemma de Google en servidores locales para uso seguro, privado y de bajo costo.",
+        "Diseñé una plataforma de análisis y visualización para el Informe Subnacional Voluntario Tijuana 2025 de la ONU.",
+        "Implementé análisis geoespacial GIS con segmentación por capas y procesamiento optimizado en Python.",
+        "Automaticé pipelines de datos geoespaciales y estadísticos para acelerar insights accionables."
       ],
       "url": "https://www.google.com/search?q=implan+tijuana"
+    },
+    {
+      "name": "SQ Entregas",
+      "position": "Chief Technology Officer (CTO)",
+      "startDate": "2021-07-01",
+      "endDate": "2025-08-01",
+      "summary": "Lideré el desarrollo de una plataforma de entregas de última milla multiplataforma para negocios locales, integrando geolocalización, cloud, dashboards y modelos predictivos.",
+      "highlights": [
+        "Lideré una plataforma iOS, Android y Web para entregas locales.",
+        "Diseñé infraestructura escalable en AWS, Digital Ocean y Google Cloud con Google Maps y geolocalización en tiempo real.",
+        "Implementé Machine Learning para optimización de rutas y análisis predictivo de comportamiento de usuarios.",
+        "Creé dashboards en tiempo real para sincronizar métricas financieras y operativas."
+      ],
+      "url": "https://www.google.com/search?q=sq+entregas"
     }
   ],
   "volunteer": [{
@@ -64,11 +72,11 @@
   }],
   "education": [{
     "institution": "Universidad Autónoma de Baja California",
-    "url": "https://www.uoc.edu/portal/es/index.html",
+    "url": "https://www.uabc.mx/",
     "area": "Licenciatura en Economía",
     "studyType": "Bachelor",
     "startDate": "2022-01-01",
-    "endDate": "2026-01-01",
+    "endDate": "2025-05-01",
     "score": "4.0",
     "courses": [
       "DB1101 - Basic SQL"
@@ -164,6 +172,20 @@
       ]
     },
     {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "UI"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "React", "SSR"
+      ]
+    },
+    {
       "name": "Node",
       "level": "Avanzado",
       "keywords": [
@@ -230,6 +252,18 @@
     {"name":"Tableau"
     ,"level":"Intermedio"
     ,"keywords":["Visualización de Datos","BI","Análisis de Datos"]
+    },
+    {"name":"D3.js"
+    ,"level":"Intermedio"
+    ,"keywords":["Visualización de Datos","JavaScript","Dashboards"]
+    },
+    {"name":"AWS"
+    ,"level":"Intermedio"
+    ,"keywords":["Cloud","Infraestructura","Despliegue"]
+    },
+    {"name":"Digital Ocean"
+    ,"level":"Intermedio"
+    ,"keywords":["Cloud","Infraestructura","Despliegue"]
     }
   ],
   "languages": [
@@ -255,6 +289,19 @@
   }],
   "projects": [
     {
+      "name": "GeoInsight AI",
+      "isActive": true,
+      "github": null,
+      "description": "Plataforma de inteligencia geoespacial para la zona metropolitana de Tijuana, con visualización 3D, análisis de terrenos, precios por zona y modelos predictivos.",
+      "highlights": [
+        "deck.gl",
+        "GIS",
+        "3D",
+        "Machine Learning"
+      ],
+      "url": "https://implantest.vercel.app/"
+    },
+    {
       "name": "SQ Entregas",
       "isActive": true,
       "github":null,
@@ -277,9 +324,21 @@
         "Node",
         "SQL",
         "Power BI",
-        "Tableu"
+        "Tableau"
       ],
       "url": "https://astrorifas.vercel.app"
+    },
+    {
+      "name": "EscribeTuCancion.com",
+      "isActive": true,
+      "github": null,
+      "description": "Plataforma web con Inteligencia Artificial generativa para ayudar a usuarios a componer letras y canciones personalizadas.",
+      "highlights": [
+        "IA Generativa",
+        "NLP",
+        "Automatización"
+      ],
+      "url": "https://escribetucancion.com"
     },
     {
       "name": "Financial Dashboard",

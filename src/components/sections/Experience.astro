@@ -43,6 +43,11 @@ import { work } from "@cv"
 
                 <footer>
                   <p>{summary}</p>
+                  {highlights.length > 0 && (
+                    <ul class="highlights">
+                      {highlights.map((highlight) => <li>{highlight}</li>)}
+                    </ul>
+                  )}
                 </footer>
               </article>
             </li>
@@ -76,6 +81,22 @@ import { work } from "@cv"
   article h4 {
     color: #222;
     font-weight: 400;
+  }
+
+  article footer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .highlights {
+    list-style: disc;
+    padding-left: 18px;
+    gap: 6px;
+  }
+
+  .highlights li {
+    line-height: 1.45;
   }
 
   header {

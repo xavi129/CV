@@ -29,10 +29,22 @@
   },
   "work": [
     {
+      "name": "Teli",
+      "position": "AI Developer",
+      "startDate": "2026-08-11",
+      "endDate": null,
+      "summary": "Desarrollo un agente llamado Revo para atención de llamadas con inteligencia artificial y brindo soporte de IA para otras aplicaciones como Uleadz.",
+      "highlights": [
+        "Desarrollo el agente Revo para contestar llamadas con inteligencia artificial.",
+        "Doy soporte e integración de capacidades de IA para aplicaciones como Uleadz."
+      ],
+      "url": "https://www.google.com/search?q=teli"
+    },
+    {
       "name": "IMPLAN | Instituto Metropolitano de Planeación Tijuana",
       "position": "Data Scientist",
       "startDate": "2025-08-01",
-      "endDate": null,
+      "endDate": "2026-08-11",
       "summary": "Desarrollo soluciones de IA, visión computacional, LLMs y análisis geoespacial para apoyar la planeación metropolitana y la toma de decisiones públicas basada en datos.",
       "highlights": [
         "Desarrollé modelos de Computer Vision para detectar deterioro en techos con imágenes satelitales.",
